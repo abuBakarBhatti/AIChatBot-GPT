@@ -95,7 +95,6 @@ function App() {
 
   return (
     <>
-      <h1>ChatBot</h1>
       <div className="app">
         <div style={{ position: "relative", height: "800px", width: "700px" }}>
           <MainContainer>
