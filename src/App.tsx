@@ -96,7 +96,7 @@ function App() {
   return (
     <>
       <div className="app">
-        <div style={{ position: "relative", height: "800px", width: "700px" }}>
+        <div style={{ position: "relative", height: "700px", width: "500px" }}>
           <MainContainer>
             <ChatContainer>
               <MessageList
@@ -118,6 +118,7 @@ function App() {
               <MessageInput
                 placeholder="Type your messages here"
                 onSend={handleSend}
+                style={{ marginBottom: "20px" }}
               ></MessageInput>
             </ChatContainer>
           </MainContainer>
